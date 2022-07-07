@@ -48,9 +48,12 @@ public class SpellCheck {
                 int charValue = 'a';
                 wordsFromFile = fileScanner.next();
                 // skip word if the first character is not a letter
-                    if (wordsFromFile.startsWith("1") || wordsFromFile.startsWith("2") || wordsFromFile.startsWith("3")){
+                    /*if (wordsFromFile.startsWith("1") || wordsFromFile.startsWith("2") || wordsFromFile.startsWith("3")
+                        || wordsFromFile.startsWith("4") || wordsFromFile.startsWith("5") || wordsFromFile.startsWith("6")
+                            || wordsFromFile.startsWith("7") || wordsFromFile.startsWith("8") || wordsFromFile.startsWith("9")
+                            || wordsFromFile.startsWith("0") || wordsFromFile.startsWith("(")){
                        fileScanner.next();
-                    }
+                    }*/
                     if (wordsFromFile.charAt(0) < charValue){
                         fileScanner.next();
                     }else {
